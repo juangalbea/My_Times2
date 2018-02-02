@@ -73,6 +73,7 @@ nav {
 .image-content {
   border: 1px solid black;
   display: flex;
+  justify-content: center;
 }
 
 .content {
@@ -110,14 +111,8 @@ p {
   font-weight: bold;
   font-size: 30px;
   color: white;
-  text-align: center;
 }
 
 .first span {
   font-size: 40px;
-  text-align: left;
-}
-
-.second span {
-  text-align: center;
 }
