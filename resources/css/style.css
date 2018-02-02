@@ -8,9 +8,11 @@ header {
   justify-content: space-between;
   border-bottom: 1px solid black;
   padding-bottom: 9px;
+  padding-top: 10px;
   z-index: 2;
   background-color: white;
   width: 100%;
+  top: 0px;
 }
 
 .logo {
@@ -72,8 +74,11 @@ nav {
 
 .image-content {
   border: 1px solid black;
+  height: 300px;
   display: flex;
   justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .content {
@@ -81,6 +86,7 @@ nav {
 }
 
 .contents {
+  width: 630px;
   border: 1px solid black;
 }
 
@@ -115,4 +121,16 @@ p {
 
 .first span {
   font-size: 40px;
+  text-align: left;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
 }
