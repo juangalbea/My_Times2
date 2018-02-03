@@ -18,7 +18,6 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  border: 1px solid black;
   padding-left: 30px;
   padding-right: auto;
 }
@@ -30,18 +29,16 @@ header {
 
 nav span a {
   color: black;
-  margin-right: 26px;
+  padding: 20px 10px;
 }
 
 nav {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid black;
 }
 
 .main {
-  border: 1px solid black;
   padding-top: 116px;
   padding-left: 50px;
   padding-right: 50px;
@@ -66,28 +63,17 @@ nav {
 }
 
 .column {
-  border: 1px solid black;
   margin: 16px;
   display: flex;
   flex-direction: column;
 }
 
 .image-content {
-  border: 1px solid black;
   height: 300px;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
-}
-
-.content {
-  border: 1px solid black;
-}
-
-.contents {
-  width: 630px;
-  border: 1px solid black;
 }
 
 .first {
@@ -127,10 +113,60 @@ p {
 .contents {
   display: flex;
   justify-content: space-between;
+  width: 630px;
 }
 
 h2 {
   font-family: Georgia;
   font-size: 30px;
   font-weight: bold;
+}
+
+.contents2 {
+  width: 300px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.bites {
+  display: flex;
+  flex-direction: column;
+}
+
+.bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  width: 100%;
+  height: 325px;
+  font-family: Verdana;
+  font-size: 12px;
+  color: black;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+}
+
+div.info {
 }
