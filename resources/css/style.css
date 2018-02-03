@@ -45,6 +45,7 @@ nav {
   display: flex;
   justify-content: center;
   width: 1232px;
+  margin: 0 auto 78px auto;
 }
 
 .column.large {
@@ -108,6 +109,7 @@ p {
 .first span {
   font-size: 40px;
   text-align: left;
+  margin-left: 20px;
 }
 
 .contents {
@@ -151,6 +153,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: MediumAquamarine;
   margin: auto;
   width: 100%;
@@ -169,4 +172,10 @@ footer {
 }
 
 div.info {
+  display: flex;
+  padding: 20px 10px;
+}
+
+div.copyright {
+
 }
